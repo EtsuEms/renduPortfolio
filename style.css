@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+
+header{
+    *{
+        color: white;
+    }
+    
+}
+
+nav {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    div{
+        display: flex;
+        gap: 15px;
+    }
+    a{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    img{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+
+
+/* -----------------------------Classes------------------------------------ */
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+}
+
+.sectionPadding{
+    padding-block: 64px;
+}
+
+.sectionBackground{
+    background-color: rgb(23, 22, 22);
+}
+
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cardServices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    text-align: center;
+    width: 125px;
+    height: 300px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+
+
+
+
+
+/* -----------------------------ID----------------------------------------- */
+
+#sectionHero{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+
+
+#sectionContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
