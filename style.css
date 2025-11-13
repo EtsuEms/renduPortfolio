@@ -2,6 +2,11 @@ body{
     margin: 0;
 }
 
+*{
+    font-family: "Epilogue", sans-serif;
+}
+
+
 header{
     *{
         color: white;
@@ -28,13 +33,18 @@ nav {
     }
 }
 
+button{
+    background-color: white;
+    padding: 10px;
+}
+
 
 
 /* -----------------------------Classes------------------------------------ */
 
 .container{
     margin: auto;
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 .sectionPadding{
@@ -48,7 +58,16 @@ nav {
 .cardWrapper{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    /* justify-content: space-between; */
+    gap: 90px
+}
+
+.cardWrapperRealisation{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    /* justify-content: space-between; */
+    
 }
 
 .cardServices{
@@ -57,9 +76,23 @@ nav {
     align-items: center;
     flex-wrap: wrap;
 
-    text-align: center;
-    width: 125px;
-    height: 300px;
+    text-align: center; 
+    width: 145px;
+}
+
+.card{
+    display: flex;
+    flex: 1 30px;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+
+    img{
+        width: 300px;
+        height: 350px;
+    }
 }
 
 /* ------------------------------------------------------------------------ */
@@ -83,5 +116,67 @@ nav {
     flex-direction: column;
     align-items: center;
 
+    h2 {
+        padding-bottom: 45px;
+    }
 
+}
+
+#sponsorContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#realisationContent{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#sectionFooter{
+    color: white;
+    h2{
+        text-align: center;
+    }
+}
+
+#footerContent{
+    display: flex;
+    align-items: center;
+    gap: 291px;
+    justify-content: center;
+}
+
+#footerContent2{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+
+}
+
+#logoFooter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    
+    img{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+
+    input{
+        width: 100%;
+        padding: 12px;
+        margin: 5px 0;
+        /* box-sizing: border-box; */
+    }
+    
 }
